@@ -8,10 +8,10 @@
 1. HTML: Create 9 boxes each with no background to represent the tic-tac-toe board.
 2. CSS: Arrange the boxes so that they are in a grid 3x3.
 3. JS: Write for loop so that: 
-(a) player 1 can select 1 box and when a box is clicked, the background colour or image will change; 
-(b) if player 1 does not have 3 boxes in a row selected (horizontally, vertically, or diagonally), player 2 who will be able to click on a box and the background colour or image of the box selected will change;
-(c) if player 2 does not have 3 boxes in a row selected (horizontally, vertically, or diagonally), restart at step 3(a);
-(d) if player 1 or player 2 does achieve 3 boxes in a row, that player's boxes selected will all change to indicate that they are the winner.
+- (a) player 1 can select 1 box and when a box is clicked, the background colour or image will change; 
+- (b) if player 1 does not have 3 boxes in a row selected (horizontally, vertically, or diagonally), player 2 who will be able to click on a box and the background colour or image of the box selected will change;
+- (c) if player 2 does not have 3 boxes in a row selected (horizontally, vertically, or diagonally), restart at step 3(a);
+- (d) if player 1 or player 2 does achieve 3 boxes in a row, that player's boxes selected will all change to indicate that they are the winner.
 7. CSS: Personalise look of the game.
 ## Cool tech you used (or code you're proud of)
 ## Lessons you learnt
