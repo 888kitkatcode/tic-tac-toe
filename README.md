@@ -14,10 +14,10 @@
 - (d) if player 1 or player 2 does achieve 3 boxes in a row, that player's boxes selected will all change to indicate that they are the winner.
 7. CSS: Personalise look of the game.
 ##### How to switch players?
-1. HTML: When the game is first opened, there will be a section under a heading called 'Whose Turn Is It?' that says 'PLAYER 1' indicating that it is Player 1's turn.
-2. JS: 
-- (a) Create an event listener so that, immediately after Player 1 clicks on a box and the box changes colour, if the box selected IS NOT the 3rd box in a winning combination for Player 1, the text under the 'Whose Turn Is It?' heading will change to "PLAYER 2". If the box selected is a winning combination for Player 1, the text will not change OR it will change to 'PLAYER 1 IS THE WINNER'.
-- (b) JS: Similarly, create an event listener so that, immediately after Player 2 clicks on a box and the box changes colour, if the box selected IS NOT the 3rd box in a winning combination for Player 2, the text under the 'Whose Turn Is It?' heading will change to "PLAYER 1". If the box selected is a winning combination for Player 2, the text will not change OR it will change to 'PLAYER 2 IS THE WINNER'.
+1. JS: Write an if statement so that the game will begin with it being player 1's turn. 
+2. JS: If it is player 1's turn to click and if the box that they have clicked has not already been selected, the text content of the selected box will change to 'X' and it will become player 2's turn.
+3. JS: If it is player 2's turn to click and if the box that they have clicked has not already been selected, the text content of the selected box will change to 'Y' and it will become player 1's turn again. 
+4. The above steps will continue until all boxes have been selected.
 ##### How to check for wins?
 1. Each box has an ID and the IDs are numbered box 1-9 from left-to-right, left-to-right and left-to-right.
 2. The winning combinations would contain:
