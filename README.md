@@ -20,7 +20,7 @@
 4. The above steps will continue until all boxes have been selected.
 ##### How to check for wins?
 1. Each box has an ID and the IDs are numbered box 1-9 from left-to-right, left-to-right and left-to-right.
-2. The winning combinations would contain:
+2. Write an if statement to check for one of the following winning combinations:
 - (a) box1, box2, box3
 - (b) box4, box5, box6
 - (c) box7, box8, box9
@@ -28,7 +28,7 @@
 - (e) box2, box5, box8
 - (f) box3, box6, box9
 - (g) box1, box5, box9
-- (h) box3, box5, box9
+- (h) box3, box5, box6
 3. The winner will be the first player to select one of the winning combinations from 2(a)-(h) above.
 ## Cool tech you used (or code you're proud of)
 ## Lessons you learnt
