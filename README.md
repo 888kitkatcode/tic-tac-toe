@@ -28,7 +28,7 @@
 - (e) box2, box5, box8
 - (f) box3, box6, box9
 - (g) box1, box5, box9
-- (h) box3, box5, box6
+- (h) box3, box5, box7
 3. The winner will be the first player to select one of the winning combinations from 2(a)-(h) above.
 ## Cool tech you used (or code you're proud of)
 ## Lessons you learnt
