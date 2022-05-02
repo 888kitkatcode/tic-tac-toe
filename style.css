@@ -2,11 +2,38 @@ body {
     display: flex; 
     flex-direction: column;
     align-items: center;
-    background-color: lightcyan;
+    background-image: url(./Images/background-portrait.jpg);
+    background-size: cover;
 }
 
 h1 {
-    color: violet
+    color: greenyellow;
+    text-align: center;
+    text-shadow: 2px 2px purple;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 80px;
+}
+
+h2 {
+    border: 5px dashed;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+h3 {
+    color: aqua;
+    font-size: 30px;
+    text-shadow: 2px 2px purple;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+section {
+    color: white;
+    font-size: 20px;
 }
 
 .mainBoard {
@@ -15,22 +42,132 @@ h1 {
     grid-template-rows: 33% 33% 33%;
     padding-left: 200px;
     padding-right: 200px;
-    padding-top: 75px;
+    padding-top: 20px;
 }
 
-.box {
-    height: 100px;
-    width: 100px;
+div {
+    background-color: #adff2f;
+    opacity: 0.3;
+    height: 120px;
+    width: 120px;
     border: 1px solid black;
-    font-size: 50px;
+    font-size: 100px;
     text-align: center;
-    background-color: purple;
 }
 
-.player-X {
-    background-color: pink;
+div:hover {
+    animation: pulse 0.6s infinite;
 }
 
-.player-O {
-    background-color: paleturquoise;
+
+.box-1 {
+    background-image: url(./Images/tile1.jpg);
+    background-size: 120px 120px;
+    opacity: 100;
+    color: red;
+}
+
+.box-2 {
+    background-image: url(./Images/tile2.jpg);
+    background-size: 120px 120px;
+    opacity: 100;
+    color: red;
+}
+
+.box-3 {
+    background-image: url(./Images/tile3.jpg);
+    background-size: 120px 120px;
+    opacity: 100;
+    color: red;
+}
+
+.box-4 {
+    background-image: url(./Images/tile4.jpg);
+    background-size: 120px 120px;
+    opacity: 100;
+    color: red;
+}
+
+.box-5 {
+    background-image: url(./Images/tile5.jpg);
+    background-size: 120px 120px;
+    opacity: 100;
+    color: red;
+}
+
+.box-6 {
+    background-image: url(./Images/tile6.jpg);
+    background-size: 120px 120px;
+    opacity: 100;
+    color: red;
+}
+
+.box-7 {
+    background-image: url(./Images/tile7.jpg);
+    background-size: 120px 120px;
+    opacity: 100;
+    color: red;
+}
+
+.box-8 {
+    background-image: url(./Images/tile8.jpg);
+    background-size: 120px 120px;
+    opacity: 100;
+    color: red;
+}
+
+.box-9 {
+    background-image: url(./Images/tile9.jpg);
+    background-size: 120px 120px;
+    opacity: 100;
+    color: red;
+}
+
+.player_X {
+    color: rgb(149, 0, 255);
+    font-size: 100px;
+    text-align: center;
+    text-shadow: 2px 2px #ff0000;
+    height: 120px;
+    width: 120px;
+    opacity: 0.6;
+}
+
+.player_O {
+    color: rgb(0, 55, 255);
+    font-size: 100px;
+    text-align: center;
+    text-shadow: 2px 2px #ff0000;
+    height: 120px;
+    width: 120px;
+    opacity: 0.6;
+} 
+
+#reset-button {
+    background-color: transparent;
+    margin-top: 20px;
+    border: 2px solid greenyellow;
+    border-radius: 20px;
+    color: aliceblue;
+
+}
+
+#reset-button:hover {
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0%{
+        box-shadow:
+        0 0 100px #5ddcff,
+        0 0 400px #4e00c2;
+        opacity: 2;
+    }
+}
+ 
+@media only screen and (min-width: 1500px) {
+    body {
+        background-image: url(./Images/background-landscape.jpg);
+        background-size: cover;
+    }
 }
