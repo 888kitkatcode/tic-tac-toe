@@ -2,7 +2,7 @@
 <a href="https://kduong888.github.io/tic-tac-toe/">Click here to play the game</a>
 ## Summary of project
 ## Plan / approach you took to solving the problem
-I started by creating a workflow diagram (a link to which can be found below) and prepared pseudocode prior to writing the code. Once I started writing the code, I continuously checked for bugs throughout by trialing the game in the browser.
+I started by creating a workflow diagram (a link to which can be found below) and prepared pseudocode prior to writing the code. Once I started writing the code, I continuously checked for bugs throughout by trialling the game in the browser.
 #### Workflow diagram
 <a href="https://lucid.app/lucidchart/dd978809-07c9-46cf-9348-ef2e0fe6c210/edit?invitationId=inv_326799b7-bbfd-4f88-b634-e5a16dff7d62"> Click here to access my draft workflow diagram</a>
 #### Initial plan
