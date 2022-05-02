@@ -33,8 +33,8 @@ JS: Write an if statement so that:
 - (h) box3, box5, box7
 3. The winner will be the first player to select one of the winning combinations above.
 ## Cool tech you used (or code you're proud of)
-1. The game starts by providing one line of instruction 'Be the first to place 3 markers in a row to make contact with us...' and once a player either wins a game or there is a draw, the instructions turn into the scoreboard.
-2. There is a 'RESET' button that turns into a 'PLAY AGAIN' button after the first win/draw. If it is pressed once, it will clear the tic-tac-toe board but the scoreboard will remain intact and the 'PLAY AGAIN' button becomes a 'RESET' button again. If the button is clicked for a second time, the entire game (board and scoreboard) will be refreshed.
+1. The game starts by providing one line of instruction <i>'Be the first to place 3 markers in a row to make contact with us...'</i> and once a player either wins a game or there is a draw, the instructions turn into the scoreboard.
+2. There is a 'RESET' button that turns into a 'PLAY AGAIN' button after the first win/draw. If it is pressed once while it says 'PLAY AGAIN', it will clear the tic-tac-toe board but the scoreboard will remain intact and the 'PLAY AGAIN' button becomes a 'RESET' button again. If the button is clicked for a second time while it says 'RESET', the entire game (board and scoreboard) will be refreshed.
 3. In keeping with the theme of the game, a pulsing hover effect has been used when a player hovers over a tile on the board or the reset/play again button.
 ## Lessons you learnt
 1. Write a good plan.
